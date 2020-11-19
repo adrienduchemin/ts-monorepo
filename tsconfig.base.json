@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    // type checking
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "allowUnreachableCode": false,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true, // experimental
+
+    // shoulb be done by eslint instead
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    // "noUncheckedIndexedAccess": true, // when typescript 4.1
+
+    // default generation
+    "module": "CommonJS",
+    "target": "ES5",
+    "declaration": false, // can be removed as it is default
+    "sourceMap": false, // can be removed as it is default
+    "inlineSourceMap": false, // can be removed as it is default
+    "removeComments": true,
+    "emitDecoratorMetadata": true // experimental
+  }
+}

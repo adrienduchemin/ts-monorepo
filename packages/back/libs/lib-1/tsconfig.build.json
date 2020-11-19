@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // play with this because of api extractor
+    "declarationDir": "typings" // types directory to be removed or at least ignored because api extractor roll up this directory into dist/index.d.ts
+  },
+  // we should also excluse all of the ones present in ./tsconfig.json if no include is specified
+  "exclude": ["**/*.test.ts", "**/*.spec.ts"] // excluse tests for generation
+}

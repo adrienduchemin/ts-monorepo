@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  // either specific src if we're sure all ts are there or exclude if we have ts in the root folder
+  // include is prefered as tsconfig.build overide this exclude and we have to repeat the array
+  "include": ["src"], // not mandatory but assure to have all .ts files in src
+  "exclude": ["node_modules", "dist", "types"] // not mandatory as we've specified allowJs : false
+}

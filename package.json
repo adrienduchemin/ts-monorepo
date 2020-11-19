@@ -1,0 +1,16 @@
+{
+  "name": "ts-monorepo",
+  "description": "A TS monorepo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "build:all": "yarn workspaces run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}

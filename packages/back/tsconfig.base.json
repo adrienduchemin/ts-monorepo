@@ -1,0 +1,8 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    // because our back is using node v12 on AWS
+    "module": "ES6",
+    "target": "ES2019"
+  }
+}
