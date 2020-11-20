@@ -1,0 +1,9 @@
+# bundled with webpack
+node_modules/
+
+# temp dir before dist
+lib/
+
+# not ts related
+src/
+tsconfig*.json

@@ -20,11 +20,6 @@
     // "noUncheckedIndexedAccess": true, // when typescript 4.1
 
     // default generation
-    "module": "CommonJS",
-    "target": "ES5",
-    "declaration": false, // can be removed as it is default
-    "sourceMap": false, // can be removed as it is default
-    "inlineSourceMap": false, // can be removed as it is default
     "removeComments": true,
     "emitDecoratorMetadata": true // experimental
   }
