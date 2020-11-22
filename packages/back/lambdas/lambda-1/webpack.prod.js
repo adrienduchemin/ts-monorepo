@@ -12,6 +12,7 @@ module.exports = merge(common, {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].bundle.js",
   },
+  externals: [nodeExternals()],
   module: {
     rules: [
       {
@@ -20,7 +21,7 @@ module.exports = merge(common, {
             loader: "ts-loader",
             options: {
               transpileOnly: true,
-              configFile: path.resolve(__dirname, "tsconfig.json"),
+              configFile: path.resolve(__dirname, "tsconfig.build.json"),
             },
           },
         ],
