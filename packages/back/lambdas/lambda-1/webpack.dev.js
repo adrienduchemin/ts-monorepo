@@ -17,6 +17,7 @@ module.exports = merge(common, {
       {
         use: [
           {
+            test: /\.tsx?$/,
             loader: "ts-loader",
             options: {
               transpileOnly: true,

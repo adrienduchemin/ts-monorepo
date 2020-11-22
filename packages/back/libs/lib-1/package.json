@@ -3,7 +3,7 @@
   "description": "Lib 1",
   "version": "1.0.0",
   "main": "./dist/lib-1.js",
-  "typings": "./dist/lib-1.d.ts",
+  "types": "./dist/lib-1.d.ts",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc -p tsconfig.build.json"
